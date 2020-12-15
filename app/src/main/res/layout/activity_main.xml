@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"></Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent"></Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent"></Button>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Button"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/phone"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/location_pin"></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/button_shape"
+        android:padding="15dp"
+        android:drawableStart="@drawable/phone"
+        android:drawablePadding="10dp"></EditText>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:checked="true"
+        android:buttonTint="@color/colorPrimaryDark"></CheckBox>
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:thumbTint="@color/colorPrimaryDark"
+        android:trackTint="@color/colorPrimaryDark"></Switch>
+
+</LinearLayout>
